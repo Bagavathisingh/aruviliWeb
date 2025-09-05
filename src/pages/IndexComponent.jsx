@@ -1,6 +1,5 @@
 import Content from "../components/indexBoxContent";
-import Box1 from "../components/indexBoxContent";
-import Vector from "../vectorline/vector";
+import Vector from "../vectorline/vector.jsx";
 export default function IndexComponent() {
   const handleAnimationComplete = () => {
   console.log('All letters have animated!');
