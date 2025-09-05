@@ -1,6 +1,6 @@
 import { MotionConfig, easeInOut, motion, scale } from "framer-motion";
-import TextType from "../UiComponents/textType.jsx"
-import SplitText from "../UiComponents/SplitText.jsx";
+import TextType from "../UiComponents/textType"
+import SplitText from "../UiComponents/splitText";
 import logo from "../assets/WhatsApp Image 2025-09-04 at 18.42.11_10a73bfa.jpg";
 export default function Content() {
   return (
