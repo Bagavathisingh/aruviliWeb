@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+
+
+.lis:hover::after{
+    content: "";
+    background-color: rgb(47, 255, 0);
+    height: 2px;
+    width: 40px;
+    bottom: 0;
+    left: 2;
+    position: absolute;
+    animation: filler 400ms ease-in-out;
+}
+.nav-lis{
+    position: relative;
+}
+.back{
+    background-color: rgba(23, 23, 23, 0.889);
+}
+@keyframes filler {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 50px;
+    }
+}
+.but{
+    box-shadow: 1px 1px 20px rgb(15, 239, 37);
+    transition: 300ms ease-in-out;
+}
+.vector{
+    border: 7px solid;
+}
+.hovers:hover{
+    box-shadow: 2px 2px 5px;
+}
+
+.anihover:hover{
+    animation: anihove 300ms ease-in-out;
+}
+@keyframes anihov {
+    from{
+        zoom: 0%;
+    }
+    to{
+        zoom: 10%;
+    }
+}
