@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        strak: ['Strak', 'sans-serif'],
-        starker: ['Starker', 'sans-serif'],
+        strak: ['strak', 'sans-serif'],
       },
     },
   },

@@ -24,7 +24,7 @@ export default function Content() {
         }}
         className=" text-black h-fit flex justify-end p-5 "
       >
-        <div className="h-20 text-black p-5 font-Stark font-bold w-100">
+        <div className="h-20 text-black p-5 font-stark font-bold w-100">
           <TextType
             text={["“We design and develop apps that make your business grow faster.“ "]}
             typingSpeed={50}
