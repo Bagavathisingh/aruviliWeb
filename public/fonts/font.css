@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Stark';
+  src: url('./StarkwalkerClassic_PERSONAL_USE_ONLY.otf') format('opentype'),
+       url('./StarkwalkerClassicIt_PERSONAL_USE_ONLY.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Starker';
+  src: url('./StarkwalkerClassicIt_PERSONAL_USE_ONLY.otf') format('opentype'),
+       url('./StarkwalkerClassic_PERSONAL_USE_ONLY.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
